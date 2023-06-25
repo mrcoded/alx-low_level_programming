@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints the value of number 0-10
- *
- * Returns: 0 on success
+ * main - Prints the numbers from 0-9.
+(*
+ * Return: 0 on success
  */
 int main(void)
 {
