@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints 0-10
+ * main - prints the value of number 0-10
  *
  * Returns: 0 on success
  */
