@@ -5,3 +5,4 @@
 4-print_alphabt.c contains a program that prints the alphabet in lowercase
 5-print_numbers.c contains a program that prints all single digit numbers of base 10 starting from 0
 6-print_numberz.c contains a program that prints all single digit numbers of base 10 starting from 0 using putchar
+7-print_tebahpla.c contains a program that prints the lowercase alphabet in reverse
