@@ -17,6 +17,4 @@ void print_alpahabet(void)
 	}
 
 	_putchar('\n');
-
-	return (0);
 }
