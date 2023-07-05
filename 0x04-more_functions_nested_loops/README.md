@@ -3,4 +3,5 @@
 2-mul.c contains a function that multiplies two integers.
 3-print_numbers.c contains function that prints the numbers, from 0 to 9
 4-print_most_numbers.c contains function that prints the numbers, from 0 to 9.
-5-more_numbers.c contains function that prints 10 times the numbers, from 0 to 14
+5-more_numbers.c contains function that prints 10 times the numbers, from 0 to 14.
+6-print_line.c contains a function that draws a straight line in the terminal.
