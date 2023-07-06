@@ -9,3 +9,5 @@
 8-print_square.c contains function that prints a square, followed by a new line.
 9-fizz_buzz.c contains a “Fizz-Buzz test".
 10-print_triangle.c contains a function that prints a triangle, followed by a new line.
+100-prime_factor.c contains aprogram that finds and prints the largest prime factor of the number 612852475143.
+
