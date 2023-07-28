@@ -1,20 +1,21 @@
 #include "main.h"
+
 /**
- * _memset - "fills memory with a constant byte"
+ * *_memset - fills memory with a constant byte
+ * @s: memory area to be filled
+ * @b: char to copy
+ * @n: number of times to copy b
  *
- * @s: "The address of memory"
- * @n: "The number of bytes"
- * @b: "The constant to be printed"
- *
- * Return: "A pointer to the memory area of s"
+ * Return: pointer to the memory area s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int x;
+	unsigned int i;
 
-	for (x = 0; x < n; x++)
+	for (i = 0; i < n; i++)
 	{
-		s[x] = b;
+		s[i] = b;
 	}
+
 	return (s);
 }
