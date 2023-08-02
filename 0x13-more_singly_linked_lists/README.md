@@ -5,4 +5,5 @@
 4-free_listint.c contains  function that frees a listint_t list.
 5-free_listint2.c contains a function that frees a listint_t list.
 6-pop_listint.c contains a function deletes the head node of a listint_t linked list, and returns the head node’s data (n).
+7-get_nodeint.c contains function that returns the nth node of a listint_t linked list.
 
