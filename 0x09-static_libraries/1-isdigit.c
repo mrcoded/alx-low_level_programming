@@ -1,19 +1,32 @@
 #include "main.h"
+
 /**
- * _isdigit - checks for a digit
- * @c: input
- *
- * Return: 1 if c is a digit
- * 0 otherwise
+ * *_strcat - function commute srtings
+ * @dest: param pointer to a char
+ * @src: param pointer to a char
+ * Return: return value of dest
  */
-int _isdigit(int c)
+
+char *_strcat(char *dest, char *src)
 {
-	if ((c >= '0') && (c <= '9'))
+	int i;
+	int j;
+
+	i = 0;
+	j = 0;
+
+	while (dest[i] != '\0')
 	{
-		return (1);
+		i++;
 	}
-	else
+
+	while (src[j] != '\0')
 	{
-		return (0);
+		dest[i] = src[j];
+		j++;
+		i++;
 	}
+
+	dest[i] = '\0';
+	return (dest);
 }
